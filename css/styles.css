@@ -22,7 +22,6 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--primary-background-color);
   color: var(--title-text-color);
 }
 .list {
@@ -47,9 +46,17 @@ body {
 }
 .footer-logo {
   color: var(--white-color);
+  text-decoration: none;
 }
 /* Site nav */
+.link {
+  text-decoration: none;
+}
 .site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
@@ -82,8 +89,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 .button:hover,
@@ -93,7 +98,6 @@ body {
 /* Section */
 
 .section-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -106,17 +110,21 @@ body {
 }
 .team {
   background-color: var(--secondary-background-color);
-  font-size: 16px;
-  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team .name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .team .job {
-  font-weight: 400;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
@@ -131,7 +139,6 @@ body {
   color: var(--title-text-color);
 }
 .features .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -156,14 +163,16 @@ body {
 .address {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
 }
 .address .location {
   color: var(--white-color);
+  text-decoration: none;
 }
 .address .link {
   color: var(--address-color);
+  text-decoration: none;
 }
 .address .link:hover,
 .address .link:focus,
@@ -195,7 +204,6 @@ body {
   color: var(--title-text-color);
 }
 .card-group {
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
